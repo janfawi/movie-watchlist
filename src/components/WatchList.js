@@ -4,7 +4,7 @@ import MovieItem from "./MovieItem";
 
 const WatchList = () => {
   const movies = Movies.map((movie) => {
-    return <MovieItem movie={movie} type={"towatch"} key={movie.id} />;
+    return <MovieItem movie={movie} key={movie.id} />;
   });
   return <div>{movies}</div>;
 };
